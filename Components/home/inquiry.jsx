@@ -17,10 +17,12 @@ const HeroContent = () => {
   const [location, setLocation] = useState("");
   const [query, setQuery] = useState("");
 
+
+  useEffect(() => {
+    AOS.init;
+  }, []);
   const submitHanler = async () => {
-    useEffect(() => {
-      AOS.init;
-    }, []);
+    
 
     const res = await axios.post("/api/inquiry", {
       name,

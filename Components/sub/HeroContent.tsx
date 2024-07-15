@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { SparklesIcon } from "@heroicons/react/24/solid";
-import aos from 'aos';
+
 import 'aos/dist/aos.css';
 import { bannerData } from "@/constants";
 import Support from '@/public/support.png'
