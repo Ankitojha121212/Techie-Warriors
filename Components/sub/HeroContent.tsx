@@ -35,7 +35,7 @@ const HeroContent = () => {
   }, [texts]);
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center px-5 mt-24 md:mt-40 w-full z-[20]">
+    <div className="flex flex-col md:flex-row items-center justify-center px-5 mt-24 md:mt-40 w-full">
       <div className="h-full w-[98%] md:w-[50%] flex flex-col gap-5 justify-center items-center m-auto text-start">
 
         <div className="py-[8px] px-[7px] flex md:hidden border bg-blue-200 rounded-lg  border-[#7042f88b] opacity-[0.9]  relative shadow-2xl shadow-black">
@@ -88,15 +88,15 @@ const HeroContent = () => {
           <h2 className="w-full text-transparent text-2xl md:text-4xl bg-clip-text bg-gradient-to-r from-slate-950 to-red-600 ">{displayedText}</h2>
           <div className="flex mt-24 gap-24" data-aos="fade-down" data-aos-delay="2000" data-aos-easing="ease-in-sine">
             <div className=" 
-           w-16 rounded-full h-16 bg-white bg-gradient-to-r from-slate-700 via-red-500 to-purple-600
+           w-16 rounded-full h-16 bg-gray-200 bg-gradient-to-r from-slate-700 via-red-500 to-purple-600
            hover:transform hover:rotate-90 animate-spin filter blur-xl
            "></div>
             <div className="
-           w-16 rounded-full h-16 bg-white bg-gradient-to-r from-slate-700 via-red-400 to-purple-600
+           w-16 rounded-full h-16 bg-gray-200 bg-gradient-to-r from-slate-700 via-red-400 to-purple-600
            hover:transform hover:rotate-90 animate-bounce filter blur-lg
            "></div>
             <div className="
-           w-16 rounded-full h-16 bg-white bg-gradient-to-r from-slate-700 via-green-300 to-purple-600
+           w-16 rounded-full h-16 bg-gray-200 bg-gradient-to-r from-slate-700 via-green-300 to-purple-600
            hover:transform hover:rotate-90 animate-spin filter blur-xl shadow-sm shadow-sky-500
            "></div>
 

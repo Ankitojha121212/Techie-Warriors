@@ -2,14 +2,14 @@ import "@/styles/globals.css";
 import Nav from "@/Components/main/Navbar";
 import Footer from "@/Components/main/Footer";
 import Head from "next/head";
-import Star from "../Components/main/StarBackground";
+
 
 
 export default function App({ Component, pageProps }) {
   return (
     <>
       <div className="bg-gradient-to-r bg-white  overflow-x-hidden text-gray-950 font-medium" style={{fontFamily : 'sans-serif'}}>
-        <Star />
+        
         <Nav />
 
         <Head>

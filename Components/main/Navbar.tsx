@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import Button from "@/components/header/button";
-import AOS from 'aos';
+
 import Icon from "../../public/favicon.ico"
 
 import 'aos/dist/aos.css';
@@ -11,9 +11,7 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-  useEffect(() => {
-    AOS.init;
-  }, [])
+  
 
   return (
     <div className="w-full h-[65px] fixed top-0 bg-slate-950  z-50 px-10">
@@ -59,7 +57,7 @@ const Navbar = () => {
             className="cursor-pointer hover:animate-slowspin rounded-full bg-inherit"
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300"
+          <span className="font-bold ml-[10px] hidden md:block text-white"
             data-aos="fade-zoom-in" data-aos-delay="1200">
             Techie Warriors
           </span>

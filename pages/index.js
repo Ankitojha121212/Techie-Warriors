@@ -19,8 +19,8 @@ const index = () => {
   }, []);
   return (
     <main className="h-full w-full">
-      <div className="flex flex-col gap-8">
-        <div>
+      <div className="flex bg-gray-200 flex-col gap-8">
+        <div className="">
         <Hero/>
         </div>
 
