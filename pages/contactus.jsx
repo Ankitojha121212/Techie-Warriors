@@ -14,7 +14,7 @@ import "aos/dist/aos.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const contactus = () => {
+const ContactUs = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
@@ -58,9 +58,10 @@ const contactus = () => {
               src="https://cdn-icons-png.flaticon.com/256/476/476860.png"
               width={1000}
               height={1000}
+              alt="Alpha Tech Warriors"
               className="w-32 -translate-x-48 rotate-90 -translate-y-8"
             />
-            <Image src={ContactPic} width={1000} className="w-96 h-48" />
+            <Image src={ContactPic} width={1000} className="w-96 h-48" alt="Alpha Tech Warriors" />
           </div>
         </section>
 
@@ -234,4 +235,4 @@ const contactus = () => {
   );
 };
 
-export default contactus;
+export default ContactUs;

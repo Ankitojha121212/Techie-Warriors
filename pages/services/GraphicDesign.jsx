@@ -26,7 +26,7 @@ const GraphicDesign = () => {
             >
               <Image
                 src={Graphic1}
-                alt="Graphic Design 1"
+                alt="Graphic Design"
                 className="rounded-md w-80 filter contrast-120 h-48"
               />
               <li>Logo Design</li>

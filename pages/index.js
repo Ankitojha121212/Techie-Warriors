@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import Inquiry from "@/components/home/inquiry";
 import Whyus from "../Components/home/whyus";
 
-const index = () => {
+const Index = () => {
 
   
 
@@ -42,4 +42,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
