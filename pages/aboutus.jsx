@@ -1,14 +1,30 @@
 import React from "react";
+import Image from 'next/image';
 import Team from "../Components/helper/team";
+import heroPic from "../public/aboutUsStarting.jpg";
+import TestimonialSlider from "../Components/TestimonialSlider/TestimonialSlider";
 
 const Aboutus = () => {
   return (
     <>
+       
       <div className="flex justify-center items-center mt-20 flex-col z-100">
-        <div className="px-8 flex justify-center items-center flex-col">
-          <h2 className="px-2 text-2xl font-bold text-blue-800">
+        <div className=" relative px-8 flex justify-center items-center flex-col">
+          <div>
+            <Image src = {heroPic} className="w-full opacity-60 " layout="responsive" alt="hero"/>
+            <div className="absolute top-10 left-0 right-0 w-full h-full flex flex-col justify-center items-center transform -translate-y-1/4">
+           <span className=" text-3xl md:text-5xl font-bold text-slate-700 text-center">Our Unique Approach to Providing IT Services</span>
+           <br/>
+           <span className=" text-lg md:text-xl font-normal text-center m-2">Partnership, Service, Growth, People</span>
+            </div>
+            <div className="mt-8 w-full">
+          <h2 className="text-2xl font-bold text-center">See What Our Clients Say</h2>
+          <TestimonialSlider />
+        </div>
+          </div>
+          {/* <h2 className="px-2 text-2xl font-bold text-blue-800">
             Who We Are ?{" "}
-          </h2>
+          </h2> */}
           <span className="mt-4 px-2 font-medium">
             Techie Warriors is a 'IT' solution company, The Company has been
             promoted by some highly experienced Professionals dedicated to
